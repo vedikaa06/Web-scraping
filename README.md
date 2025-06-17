@@ -13,6 +13,16 @@ A Python-based web scraper for [https://quotes.toscrape.com](https://quotes.tosc
 - 🧠 Fully commented for easy understanding and learning.
 
 ---
+## 🚀 Deployed Website
+You can view the live version of this project here:
+
+👉 https://vedikaa06.github.io/Web-scraping/
+
+This website is hosted using GitHub Pages and showcases the visual rendering of scraped quotes using only HTML and CSS.
+
+📁 To view it locally, open index.html in your browser after running the scraper.
+
+---
 
 ## 🖼️ Demo
 
