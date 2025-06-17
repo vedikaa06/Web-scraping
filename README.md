@@ -17,3 +17,17 @@ A Python-based web scraper for [https://quotes.toscrape.com](https://quotes.tosc
 ## 🖼️ Demo
 
 📸 **Preview of Output HTML Page**
+
+![docs:screenshot](https://github.com/user-attachments/assets/8c28263b-1859-4ef3-bea5-029fe0d97c63)
+
+
+📂 [Open `index.html`](index.html) – view how quotes are rendered visually.
+
+📄 Sample JSON Output
+
+```json
+{
+  "quote": "“Try not to become a man of success. Rather become a man of value.”",
+  "author": "Albert Einstein",
+  "tags": ["adulthood", "success", "value"]
+}
