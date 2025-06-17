@@ -1,6 +1,13 @@
-# Web Scraper for Blackcoffer Insights Articles
-## Overview
+# 📝 Quotes Scraper & Visualizer
 
-🕷️ Blackcoffer Insights Web Scraper
+A Python-based web scraper for [https://quotes.toscrape.com](https://quotes.toscrape.com) that extracts quotes, authors, and tags — then presents them visually in a clean, styled HTML page using static HTML and CSS.
 
-This project scrapes article titles and URLs from the [Blackcoffer Insights](https://insights.blackcoffer.com/) homepage using Python, BeautifulSoup, and custom headers. The extracted data is stored in a structured JSON file and can be visually viewed using a styled HTML page.
+---
+
+## 📌 Features
+
+- 🔍 Scrapes quotes, authors, and tags from the homepage.
+- 🗃️ Saves the data as structured JSON (`quotes_data.json`).
+- 🌐 Visualizes the quotes beautifully with `index.html`.
+- 🧼 Clean modular code with `headers.py`, `scraping.py`, and reusable functions.
+- 🧠 Fully commented for easy understanding and learning.
