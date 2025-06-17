@@ -1,6 +1,6 @@
 # 📝 Quotes Scraper & Visualizer
 
-A Python-based web scraper for [https://quotes.toscrape.com](https://quotes.toscrape.com) that extracts quotes, authors, and tags — then presents them visually in a clean, styled HTML page using static HTML and CSS.
+A Python-based web scraper for [https://quotes.toscrape.com](https://quotes.toscrape.com) that extracts quotes, authors, and tags — then presents them visually in a clean, styled HTML page using static HTML.
 
 ---
 
