@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Extracted Quotes - JSON View</title>
+    <style>
+        /* Page background and font */
+        body {
+            background: linear-gradient(135deg, #cbe8ff, #7fbfff); /* cool blue gradient */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 40px;
+            color: #1a1a2e;
+        }
+
+        /* Title style */
+        h2 {
+            text-align: center;
+            color: #0b2545;
+            font-size: 32px;
+            text-shadow: 1px 1px 2px #d6e6f2;
+            margin-bottom: 30px;
+        }
+
+        /* Container for quotes */
+        .quote-container {
+            background-color: #f5faff;
+            border-left: 6px solid #3498db;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            padding: 20px;
+            margin: 0 auto 20px auto;
+            max-width: 800px;
+        }
+
+        /* Quote text */
+        .quote-text {
+            font-size: 18px;
+            font-style: italic;
+            color: #2c3e50;
+        }
+
+        /* Author style */
+        .author {
+            font-size: 16px;
+            font-weight: bold;
+            color: #1d5c99;
+            margin-top: 10px;
+        }
+
+        /* Tags section */
+        .tags {
+            margin-top: 10px;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #2980b9;
+            color: #fff;
+            font-size: 13px;
+            padding: 4px 8px;
+            margin: 2px;
+            border-radius: 4px;
+        }
+
+        /* Download link */
+        a.download-link {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            text-decoration: none;
+            color: #0b4f6c;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        a.download-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>📘 Famous Quotes from ToScrape</h2>
+
+    <!-- Example of how static HTML can be used to present pre-extracted JSON -->
+    <div class="quote-container">
+        <div class="quote-text">
+            “The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”
+        </div>
+        <div class="author">— Albert Einstein</div>
+        <div class="tags">
+            <span class="tag">change</span>
+            <span class="tag">deep-thoughts</span>
+            <span class="tag">thinking</span>
+            <span class="tag">world</span>
+        </div>
+    </div>
+
+    <div class="quote-container">
+        <div class="quote-text">
+            “It is our choices, Harry, that show what we truly are, far more than our abilities.”
+        </div>
+        <div class="author">— J.K. Rowling</div>
+        <div class="tags">
+            <span class="tag">abilities</span>
+            <span class="tag">choices</span>
+        </div>
+    </div>
+
+    <div class="quote-container">
+        <div class="quote-text">
+            “There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”
+        </div>
+        <div class="author">— Albert Einstein</div>
+        <div class="tags">
+            <span class="tag">inspirational</span>
+            <span class="tag">life</span>
+            <span class="tag">miracle</span>
+            <span class="tag">live</span>
+        </div>
+    </div>
+
+    <!-- Link to download full JSON file -->
+    <a class="download-link" href="quotes_data.json" download>⬇️ Download Full Quotes JSON</a>
+
+</body>
+</html>
