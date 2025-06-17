@@ -11,3 +11,9 @@ A Python-based web scraper for [https://quotes.toscrape.com](https://quotes.tosc
 - 🌐 Visualizes the quotes beautifully with `index.html`.
 - 🧼 Clean modular code with `headers.py`, `scraping.py`, and reusable functions.
 - 🧠 Fully commented for easy understanding and learning.
+
+---
+
+## 🖼️ Demo
+
+📸 **Preview of Output HTML Page**
